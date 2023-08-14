@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+h1
+{
+    background-color:aquamarine ;
+    color: blue;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+main
+{
+    background-color: rgba(255, 252, 127, 0.8);
+}
+table
+{
+    border-spacing: 10px;
+}
+.container table td
+{
+    color: blue
+}
+
+p
+{
+    display: inline-block;
+}

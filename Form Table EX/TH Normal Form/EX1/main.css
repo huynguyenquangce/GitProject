@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+h1
+{
+    text-transform: uppercase;
+
+}
+h1
+{
+    background-color: #FF7F50;
+    color:white;
+    text-align: center;
+}
+p
+{
+    margin-right: 10px;
+    margin-top: 10px;
+    color: blue;
+    text-align: right;
+}
+#hobby
+{
+    margin: 10px;
+    border-spacing: 15px;
+}
+.thuvui
+{
+    margin-right: 10px;
+}
+
+#mainform
+{
+    border-spacing: 12px;
+}
+.summit
+{
+    font-size: 14px;
+    margin: 2px;
+}
