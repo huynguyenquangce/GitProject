@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p 
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <fieldset>
+            <legend>Which taxi do you required?</legend>
+            <input type="radio" name="taxi">Car <br>
+            <input type="radio" name="taxi">Van <br>
+            <input type="radio" name="taxi">Tuk Tuk <br>
+        </fieldset>
+        <fieldset>
+            <legend>Extras</legend>
+            <input type="checkbox" name="extra">Baby Scat <br>
+            <input type="checkbox" name="extra">Wheelchair Access <br>
+            <input type="checkbox" name="extra">Stock Tip <br>
+        </fieldset>
+        <p class="back">Pickup Date/Time</p>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <p>Pickup Place</p>
+        <select name="" id="">
+        <option value="">Select One</option>
+    </select>
+    <br>
+        <p>Dropoff Place</p>
+        <input type="text">
+        <br>
+        <p>Special Instructions</p>
+        <input type="text">
+        <br>
+        <input type="submit" value="Submit Booking">
+    </div>
+</body>
+</html>
