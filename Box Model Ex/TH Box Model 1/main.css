@@ -1,0 +1,10 @@
+.box1
+{
+    border: 20px dashed red;
+    background-color: aqua;
+    padding: 25px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
