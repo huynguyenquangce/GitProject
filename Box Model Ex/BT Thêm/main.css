@@ -1,0 +1,41 @@
+#block-purple
+{
+    background-color: #8598cc;
+    text-align: center;
+    padding:15px 10px;
+    color:whitesmoke;
+    display: inline-block;
+}
+h1
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+#title
+{
+    color:#00aeef;
+}
+#container
+{
+    text-align: center;
+}
+#container .box 
+{
+    display: inline;
+    background-color: #2d3032;
+    color:#e1e2e2;
+    padding: 10px 20px;
+    margin: 8px;
+    font-family: sans-serif;
+    border-radius: 4%;
+} 
+p
+{
+font-family: sans-serif;
+text-align: center;
+padding-bottom: 30px;
+}
+#cc
+{
+    text-align: center;
+}
