@@ -1,7 +1,7 @@
 #block-purple
 {
     background-color: #8598cc;
-    text-align: center;
+    /* text-align: center; */
     padding:15px 10px;
     color:whitesmoke;
     display: inline-block;

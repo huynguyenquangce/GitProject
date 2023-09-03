@@ -1,0 +1,126 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background-color: rgb(70 102 176);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.ti-facebook
+{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: aliceblue;
+    font-size: 26px;
+    display: inline-block;
+}
+/* #searching-box
+{
+    position: absolute;
+    background-color: rgb(51 80 137);
+    height: 25px;
+    width: 80%;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 50px;
+    border-radius: 10px;
+} */
+
+/* .ti-search
+{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-left: 180px;
+} */
+#searching-box input
+{
+    background-color: rgb(51 80 137);
+    border-radius: 10px;
+    position: absolute;
+    height: 25px;
+    width: 75%;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 50px;
+    text-align: center;
+    border: 1px solid black;
+    color:white;
+
+} 
+.ti-comment-alt
+{
+    position: absolute;
+    color: white;
+    margin-left: 92%;
+    margin-top: 13px;
+}
+#circle-logo
+{
+    background-color:rgb(51 80 137) ;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#circle-logo .ti-facebook
+{
+    font-size: 22px;
+    position: absolute;
+    margin-top: 8.5px;
+    margin-left: 9px;
+}
+#content
+{
+    border-top: 1px solid black;
+}
+#background-fb
+{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(51 80 137);
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#background-fb .ti-facebook
+{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 95px;
+    margin-left: 37%;
+}
+
+.ti-heart,.ti-flag,.ti-new-window
+{
+color:black;
+margin-left: 10px;
+display: inline-block;
+}
+#comment
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+#like-share-comment
+{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.ti-face-smile,.ti-comment,.ti-share
+{
+    color: black;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+}

@@ -1,0 +1,47 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#left-sidebar ul li a 
+{
+    
+    text-decoration: none;
+    color:#545454;
+}
+#left-sidebar ul li 
+{
+    position: relative;
+    padding: 0 20px;
+    list-style-type: none;
+    background-color: #FEFAE9;
+    cursor: pointer;
+    width: 200px; 
+    height: 25px;
+    text-align: center;
+}
+#left-sidebar ul ul 
+{
+position: absolute;
+visibility: hidden;
+}
+#left-sidebar ul li:hover
+{
+    background-color: #A2FFF5;
+}
+h3
+{
+    margin-bottom: 20px;
+}
+#left-sidebar ul li:hover ul{
+    visibility:visible;
+    top: 0px;
+    left: 100px;
+  }
+  #left-sidebar>ul>li
+  {
+    width: 45px;
+    height: 25px;
+  }
+

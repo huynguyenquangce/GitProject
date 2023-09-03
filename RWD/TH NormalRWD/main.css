@@ -1,0 +1,187 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] 
+{
+    /* border: 1px solid black; */
+    padding:8px;
+    float: left;
+}
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container
+{
+    margin-bottom: 10px;
+}
+.navbar
+{
+    background-color: rgb(229 229 229);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color:rgb(170 170 170);
+    margin-bottom: 10px;
+}
+
+.left-sidebar ul li 
+{
+    list-style-type: none;
+    text-align: center;
+    padding:10px;
+    text-decoration: underline;
+    background-color:rgb(229 229 229);
+    margin: 6px;
+}
+
+.left-sidebar ul li:hover 
+{
+    cursor: pointer;
+    color:red;
+    background-color: aquamarine;
+} 
+
+.content h2
+{
+padding-bottom: 6px;
+color: rgb(170 170 170);
+}
+
+.content p 
+{
+    color: rgb(170 170 170);
+}
+.right-sidebar h2
+{
+    padding-bottom: 6px;
+    color: rgb(170 170 170);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.right-sidebar p 
+{
+    color: rgb(170 170 170);
+    text-align: center;
+}
+.right-sidebar
+{
+    background-color: rgb(229 229 229);
+    height: 250px;
+}
+.footer
+{
+    width: 100%;
+    background-color: rgb(229 229 229);
+    height: 50px;
+}
+.footer p 
+{
+    text-align: center;
+    line-height: 50px;
+    color: rgb(170 170 170);
+}
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .content,.left-sidebar,.right-sidebar
+    {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width:610px) 
+{
+.content 
+{
+    width: 70%;
+    margin:10px;
+}    
+.left-sidebar
+{
+    width: 20%;
+    margin:10px;
+}
+.right-sidebar
+{
+    width: 100%;
+}
+}
+
+/* PC */
+@media only screen and (min-width:1000px) 
+{
+    .content 
+    {
+        width: 50%;
+    }    
+    .left-sidebar
+    {
+        width: 20%;
+        margin:10px;
+    }
+    .right-sidebar
+    {
+        width:20%;
+    }
+}
+
+
+
