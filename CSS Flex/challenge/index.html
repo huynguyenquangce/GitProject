@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .header,.footer
+      {
+        background-color: aquamarine;
+        padding: 20px;
+      }
+      .content
+      {
+        display: flex;
+        height: 300px;
+
+      }
+      .left_content
+      {
+        background-color: beige;
+        flex:20%;
+         display: flex; 
+        /* align-items: center;  */
+        justify-content: center;
+      }
+      .right_content
+      {
+        background-color: lightcoral ;
+        flex: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+<div class="header">Header</div>
+<div class="content">
+<div class="left_content">Left</div>
+<div class="right_content">Right</div>
+</div>
+<div class="footer">Footer</div>
+  </div>
+  </body>
+</html>

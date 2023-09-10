@@ -1,0 +1,310 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-grey
+{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+}
+.left-sidebar
+{
+    flex: 20%;
+    background-color: white;
+    height: 100vh;
+}
+.left-sidebar .avatar .avatar-img
+{
+    width: 45%;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+.left-sidebar .avatar .avatar-name, .left-sidebar .avatar .template-tag
+{
+    margin-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.template-tag
+{
+    font-size: 15px;
+    color:#757575;
+    font-weight: 100;
+}
+.item-list a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.left-sidebar-list ul li 
+{
+    padding: 8px 16px;
+}
+.fa-icon
+{
+    margin-right: 16px;
+}
+.icon-contact
+{
+    padding: 0 16px;
+    margin-top: 16px;
+}
+.fa-icon-contact
+{
+    padding-right: 2px;
+}
+.content
+{
+    clear: both;
+    flex: 80%;
+}
+.header-content
+{
+    padding: 0 16px;
+    border-bottom: 7px solid #ccc;
+}
+.content .header-content .header-content-main-text
+{
+font-size: 36px;
+margin: 10px 0;
+font-weight: 200;
+}
+.nav-bar
+{
+    margin: 24px 0;
+}
+.nav-bar-item
+{
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+.icon-nav
+{
+    margin-right: 18px;
+}
+.nav-bar .nav-bar-item:hover
+{
+    background-color: #ccc;
+}
+.grid-container 
+{
+    margin-top: 12px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 8px;
+    gap: 12px 12px;
+}
+.grid-img
+{
+    width: 100%;
+}
+.grid-item
+{
+    background-color: white;
+}
+h4
+{
+    margin: 15px 0px;
+    padding-left: 10px;
+}
+.grid-item>p 
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.number
+{
+    padding: 32px 0px;
+    text-align: center;
+}
+.number-box
+{
+    text-decoration: none;
+    padding:8px 16px;
+    color: black;
+    font-size: 15px;
+}
+.number .number-box:hover
+{
+background-color: black;
+color: white;
+}
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 8px;
+}
+.container-2-img
+{
+flex: 50%;
+}
+.container-2-img img 
+{
+    width: 100%;
+} 
+.container-2-img
+{
+    padding: 0 8px;
+}
+.my-cv
+{
+    padding: 12px 24px;
+}
+.my-cv .my-cv-head
+{
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.my-cv .my-cv-content
+{
+    font-size: 15px;
+    margin: 20px 0px;
+    line-height: 1.5
+}
+.skill-point
+{
+    margin-top: 20px;
+}
+.skill-point-head
+{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.skill-point-content
+{
+    margin: 20px 0px;
+}
+.point 
+{
+    background-color: #9e9e9e;
+    width: 100%;
+}
+.photo-point-complete
+{
+width:95% ;
+background-color: #616161;
+}
+.design-point-complete
+{
+    width: 85%;
+    background-color: #616161;
+}
+.photoshop-point-content
+{
+    width: 80%;
+    background-color: #616161;
+}
+.photo-point-complete,.design-point-complete,.photoshop-point-content
+{
+    color:white;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+.download 
+{
+    margin: 50px 0px;
+}
+.fa-solid
+{
+padding-right: 12px;
+}
+.btn-download
+{
+    background-color: #616161;
+    padding: 12px 24px;
+    display: inline;
+    color: white;
+}
+.download .btn-download:hover
+{
+    color: black;
+    background-color: #ccc;
+}
+.charge-main
+{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.box-charge
+{
+    display: flex;
+}
+.charge
+{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px
+}
+.charge-name
+{
+    font-size: 24px!important;
+}
+.charge-name-1,
+.charge-name-2,
+.charge-name-3
+{
+    padding: 32px 16px!important;
+    color: white!important;
+}
+.charge-name-1,.charge-name-3
+{
+    background-color: #606060!important;
+}
+.charge-name-2
+{
+    background-color: #60bab2!important;
+}
+.charge-item
+{
+    border: 1px solid #ddd;
+    padding: 16px 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color:#9b9b9b;
+} 
+.charge-price
+{
+    font-size: 30px;
+}
+.sign-up
+{
+    background-color:#60bab2 ;
+    padding: 12px 24px;
+    display: inline;
+    color: #fff;
+}
+
+.sign-up:hover
+{
+    background-color: black;
+}
+.footer-1
+{
+display: flex;
+background-color: #616161;
+}
+.footer-content
+{
+flex: 30%;
+padding: 12px 16px;
+}
+.footer-end
+{
+    padding: 24px 0px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
