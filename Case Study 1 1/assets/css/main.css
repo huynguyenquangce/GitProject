@@ -348,6 +348,7 @@ h4 {
     display: block;
     width: 100%;
     text-align: center;
+    border-bottom: 1px solid #e7e2e2;
 }
 .nav-bar>p
 {
