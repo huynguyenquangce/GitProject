@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-color
+{
+    background-color: rgba(236, 244, 254, 1);
+}
+.content-header
+{
+    margin-top: 4rem;
+}
+.mg-t
+{
+    margin-top: 5rem;
+}
+.mb-lg-6
+{
+    margin-bottom: 5rem;
+}
+.border-radius-card
+{
+    border-radius: 8px;
+}
+.border-radius-img
+{
+    border-radius: 8px;
+    padding: 5px 0px;
+}
+@media only screen and (max-width: 768px) {
+
+    .content-header
+    {
+        text-align: center;
+    }
+    .nav-name
+    {
+        text-align: center;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(180  , 180, 180, 0.2);
+    }
+    .mb-lg-6
+    {
+        margin-bottom: 2.5rem;
+    }
+}

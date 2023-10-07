@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project</title>
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./font/fontawesome-free-6.4.2-web/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-purple fixed-top top-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5 p-2 mx-1" href="#">
+          <span class="text-primary fs-2">B</span>
+          <span class="text-white fs-3">Host</span>
+        </a>
+        <!-- Btn Toggle -->
+        <button class="navbar-toggler bg-light shadow-none border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav Bar  -->
+        <div class="collapse navbar-collapse nav-bar" id="navbarTogglerDemo2">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0 text-center navbar-items">
+            <li class="nav-item">
+              <a class="nav-link text-primary fs-5 nav-bar-items p-2 mx-1" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="us.html">Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 p-2 mx-1" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 bg-primary border-radius p-2 mx-1" href="#">
+                <i class="fa-solid fa-phone"></i>
+                652-245 3222 11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header Content -->
+    <div class="headder-content bg-header w-100 position-relative mb-4">
+      <div class="container-fluid position-relative position-absolute z-index-1 top-40 left-50">
+        <div class="row position-relative d-flex flex-wrap">
+          <div class="col w-100 ps-3 pe-3">
+            <div class="header-content text-center px-5">
+              <!-- icon -->
+              <div class="ms-auto me-auto d-flex justify-content-center align-items-center header-icon-box">
+                <div>
+                  <img src="./img/logo header.svg" alt="logo" />
+                </div>
+              </div>
+              <!-- header main text  -->
+              <div class="header-text position-relative text-white d-block mt-5 display-2">
+                Choose the perfect hosting
+              </div>
+              <!-- input search domain -->
+              <div class="header-search position-relative">
+                <div class="d-inline header-seach-bg">
+                  <form class="input-group" method="get">
+                    <input type="text" class="form-control" placeholder="Your domain name here" name="domain-name"
+                      id="domain-name" />
+                    <button class="btn btn-outline-secondary dropdown-toggle bg-domain fw-bold" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      .com
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">.io</a></li>
+                      <li><a class="dropdown-item" href="#">.net</a></li>
+                    </ul>
+                    <button class="btn btn-outline-secondary text-white bg-search" type="button">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing  -->
+  </header>
+  <main>
+    <div class="domain-pricing position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="domain-pricing-content d-flex">
+              <ul
+                class="d-flex flex-md-row flex-column justify-content-between align-items-center list-unstyled px-5 w-100 text-center">
+                <li class="fs-3 w-100">
+                  <span class="color-dot"> . </span>
+                  <span class="me-2 color-domain-com"> com </span>
+                  <span> $3.99 </span>
+                </li>
+                <li class="fs-3 w-100">
+                  <span class="color-dot"> . </span>
+                  <span class="me-2 color-domain-net"> net </span>
+                  <span> $1.99 </span>
+                </li>
+                <li class="fs-3 w-100">
+                  <span class="color-dot"> . </span>
+                  <span class="me-2 color-domain-org"> org </span>
+                  <span> $2.99 </span>
+                </li>
+                <li class="fs-3 w-100">
+                  <span class="color-dot"> . </span>
+                  <span class="me-2 color-domain-io"> io </span>
+                  <span class="margin-left-fixed"> $3.99 </span>
+                </li>
+                <li class="fs-3 w-100">
+                  <span class="color-dot"> . </span>
+                  <span class="me-2 color-domain-info"> info </span>
+                  <span> $13.99 </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Why Choose Us -->
+    <div class="why">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="why-text text-center">
+              <div class="h2 text-black-50 fw-bolder">Why Choose us ?</div>
+              <div class="why-subtext-color">
+                Ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                velit arcu, scelerisque
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row why-row">
+          <div class="col-12 col-lg-4 px-3 mb-5">
+            <div class="icon-block-1 text-center">
+              <div class="icon-why ms-auto me-auto">
+                <img src="./img/icon_1.svg" alt="icon1" />
+              </div>
+              <div class="icon-block-1-title h3 pb-3">Server Protection</div>
+              <div class="icon-block-1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu,
+                scel
+                erisque dignissim massa quis, mattis facilisis erat.</div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-3 mb-5">
+            <div class="icon-block-1 text-center">
+              <div class="icon-why ms-auto me-auto">
+                <img src="./img/icon_2.svg" alt="icon2" />
+              </div>
+              <div class="icon-block-1-title h3 pb-3">CloudFlare Integration</div>
+              <div class="icon-block-1-text">Ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu,
+                sceleri
+                sque dignissim massa quis, mattis facilisis erat. Aliquam erat.</div>
+            </div>
+            <div></div>
+          </div>
+          <div class="col-12 col-lg-4 px-3 mb-5">
+            <div class="icon-block-1 text-center">
+              <div class="icon-why ms-auto me-auto">
+                <img src="./img/icon_3.svg" alt="icon3">
+              </div>
+              <div class="icon-block-1-title h3 pb-3">30 Day Money-back</div>
+              <div class="icon-block-1-text">Lorem ipsum dolor sit amet, adipiscing elit. Mauris velit arcu, scelerisque
+                dignissim m
+                assa quis, mattis facilisis erat. Aliquam erat.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing  -->
+    <div class="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="pricing-text text-center">
+              <div class="pricing-title h2 fw-bolder">The package 4 you</div>
+              <div class="pricing-subtitle">Ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu,
+                scelerisque</div>
+            </div>
+          </div>
+        </div>
+        <div class="row pricing-col">
+          <div class="col-12 col-lg-4">
+            <div class="pricing-items position-relative bg-light">
+              <div class="pricing-bg-package position-relative">
+                <div class="pricing-text-package position-absolute position-relative text-center w-100">
+                  <div class="pricing-for h5 text-white fw-bolder w-100 mt-5 text-uppercase">Beginner</div>
+                  <div class="price text-white h1 w-100 mt-4">Free</div>
+                </div>
+              </div>
+              <div class="pricing-info-package text-center">
+                <ul class="info-package list-unstyled text-center">
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>2 E-mail
+                    Addresess</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>25 GB Space</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>24h Live Support
+                  </li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>Documetation
+                    inside</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-x icon-x me-2"></i>SEO Plan</li>
+                  <li class="info-package-items-i mb-2 mt-5 d-inline-block">i</li>
+                </ul>
+              </div>
+              <div class="button-pricing mt-2 text-center justify-content-center d-flex justify-content-end">
+                <div
+                  class="btn-price d-flex justify-content-center align-items-center text-white text-uppercase fw-bolder">
+                  Order Plan</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="pricing-items position-relative bg-light">
+              <div class="pricing-bg-package position-relative">
+                <div class="pricing-text-package position-absolute w-100 text-center">
+                  <div class="pricing-for h5 text-white fw-bolder w-100 mt-5 text-uppercase">Recommended</div>
+                  <div class="price text-white h1 w-100 mt-4"><span class="me-1">$</span>29<sup class="h3 ms-1">90</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="pricing-info-package text-center">
+                <ul class="info-package list-unstyled text-center">
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>2 E-mail
+                    Addresess</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>25 GB Space</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>24h Live Support
+                  </li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>Documetation
+                    inside</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>SEO Plan</li>
+                  <li class="info-package-items-i mb-2 mt-5 d-inline-block">i</li>
+                </ul>
+              </div>
+              <div class="button-pricing mt-2 text-center justify-content-center d-flex justify-content-end">
+                <div
+                  class="btn-price d-flex justify-content-center align-items-center text-white text-uppercase fw-bolder">
+                  Order Plan</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="pricing-items position-relative bg-light">
+              <!-- Start Type Of Package -->
+              <div class="pricing-bg-package position-relative">
+                <div class="pricing-text-package position-absolute w-100 text-center">
+                  <div class="pricing-for h5 text-white fw-bolder w-100 mt-5 text-uppercase">Professional</div>
+                  <div class="price text-white h1 w-100 mt-4"><span class="me-1">$</span>59<sup class="h3 ms-1">90</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="pricing-info-package text-center">
+                <ul class="info-package list-unstyled text-center">
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>2 E-mail
+                    Addresess</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>25 GB Space</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>24h Live Support
+                  </li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>Documetation
+                    inside</li>
+                  <li class="info-package-items mb-2"><i class="fa-solid fa-check icon-check me-2"></i>SEO Plan</li>
+                  <li class="info-package-items-i mb-2 mt-5 d-inline-block">i</li>
+                </ul>
+              </div>
+              <div class="button-pricing mt-2 text-center justify-content-center d-flex justify-content-end">
+                <div
+                  class="btn-price d-flex justify-content-center align-items-center text-white text-uppercase fw-bolder">
+                  Order Plan</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center pricing-end-text">
+          <div class="col">
+            <div class="end-text">Ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque
+              dignissim massa quis,
+              mattis facilisis erat. Aliquam erat.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- More Info -->
+    <div class="more-info bg-light">
+      <div class="container-fluild">
+        <div class="row bb-md">
+          <div class="col-12 col-md-12 col-lg-5 text-center d-flex align-items-md-center align-items-lg-center justify-content-md-center justify-content-sm-center">
+            <div class="more-info-img-1 w-100">
+              <img src="./img/more-info_1.webp" alt="image-1" class="w-100">
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-md-12 col-lg-6 text-center">
+            <div class="more-info-text-1 mt-5">
+              <div class="more-info-text-1-title h1 fw-bolder text-start text-md-center">Choose the best service</div>
+              <div class="more-info-text-1-subtitle mt-4 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat.
+                Sed efficitur diam ut interdum ultricies. In a leo vel dolor tempor feugiat. Cras accumsan faucibus
+                magna a imperdiet. Donec mi neque, pretium eu quam at, facilisis ve
+                nenatis tortor. Suspendisse potenti.</div>
+              <div class="more-info-text-1-list mt-3 text-start t">
+                <ul class="list-unstyled">
+                  <li class="fw-bold"><span class="text-primary fs-1 me-3">.</span>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.</li>
+                  <li class="fw-bold"><span class="text-primary fs-1 me-3">.</span>Maecenas ornare, arcu at lobortis
+                    ultrices, neque erat euismod erat</li>
+                  <li class="fw-bold"><span class="text-primary fs-1 me-3">.</span>Nam pulvinar dapibus justo, ac
+                    pharetra neque dictum non</li>
+                </ul>
+              </div>
+              <div class="more-info-text-1-btn mt-5 d-flex justify-content-md-center justify-content-lg-start justify-content-center">
+                <div
+                  class="btn-price d-flex justify-content-center align-items-center text-white text-uppercase fw-bolder">
+                  Order Plan</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-12 col-lg-6 text-center">
+            <div class="more-info-text-2 mt-5">
+              <div class="more-info-text-2-title h1 fw-bolder text-start text-md-center">The best servers</div>
+              <div class="more-info-text-2-list mt-3 text-start">
+                <ul class="list-unstyled">
+                  <li class="py-4">
+                    <div class="text-primary fs-3 fw-bold text-sm-center text-lg-start">01.</div>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim
+                      massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam ut i
+                      nterdum ultricies.</div>
+                  </li>
+                  <li class="py-4">
+                    <div class="text-primary fs-3 fw-bold text-sm-center text-lg-start">02.</div>
+                    <div>
+                      Dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis,
+                      mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam ut interdum ultricies.
+                    </div>
+                  </li>
+                  <li class="py-4">
+                    <div class="text-primary fs-3 fw-bold text-sm-center text-lg-start">03.</div>
+                    <div>
+                      In a leo vel dolor tempor feugiat. Cras accumsan faucibus magna a imperdiet. Donec mi neque,
+                      pretium eu quam at, facilisis venenatis tortor. Suspendisse accumsan potenti.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="more-info-text-1-btn mt-5 d-flex justify-content-md-center justify-content-lg-start justify-content-center">
+              <div
+                class="btn-price d-flex justify-content-center align-items-center text-white text-uppercase fw-bolder mb-sm-5">
+                Order Plan</div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-md-12 col-lg-5 text-center d-flex align-items-md-center align-items-lg-center justify-content-md-center justify-content-sm-center">
+            <div class="more-info-img-2 mt-5 w-100">
+              <img src="./img/more-info_2.webp" alt="image-2" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <!-- Footer Here  -->
+  <footer>
+    <div class="bg-footer w-100 position-relative">
+      <div class="need-help position-absolute">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-content-center">
+            <div class="col-6 text-white fs-4 text-center">Need help? Call us</div>
+            <div class="col-6 text-white fs-3 text-start"><i class="fa-solid fa-phone me-2"></i>652-345 32211</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-content-col text-lg-start text-md-center text-center">
+                <div class="text-white fw-bold mb-4 fs-3">Hosting Package</div>
+                <div>
+                  <ul class="list-unstyled footer-list">
+                    <li class="p-2">Cloud Hosting</li>
+                    <li class="p-2">Web Hosting</li>
+                    <li class="p-2">Reseller Hosting</li>
+                    <li class="p-2">VPS Hosting</li>
+                    <li class="p-2">Dedicated Servers</li>
+                    <li class="p-2">Windows Hosting</li>
+                    <li class="p-2">Linux Servers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-content-col text-lg-start text-md-center text-center">
+                <div class="text-white fw-bold mb-4 fs-3">Our Services</div>
+                <div>
+                  <ul class="list-unstyled footer-list">
+                    <li class="p-2">Web Design</li>
+                    <li class="p-2">Logo Design</li>
+                    <li class="p-2">Domains Register</li>
+                    <li class="p-2">Search Advertising</li>
+                    <li class="p-2">Email Marketing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-content-col text-lg-start text-md-center text-center">
+                <div class="text-white fw-bold mb-4 fs-3">Useful Links</div>
+                <div>
+                  <ul class="list-unstyled footer-list">
+                    <li class="p-2">About us</li>
+                    <li class="p-2">Testimonials</li>
+                    <li class="p-2">Services</li>
+                    <li class="p-2">News</li>
+                    <li class="p-2">Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-content-col text-lg-start text-md-start text-sm-center">
+                <div class="row text-center">
+                <div class="text-white fw-bold mb-4 fs-3"><span class="text-primary">B</span>Host</div>
+                </div>
+                <div class="row">
+                  <ul>
+                    <li class="p-2">
+                      <div class="row">
+                        <div class="col-5 color-lgold text-center">Address</div>
+                        <div class="col-7 footer-list">
+                          1481 Creekside Lane Avila Beach, CA 931
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-2">
+                      <div class="row">
+                        <div class="col-5 color-lgold text-center">Phone</div>
+                        <div class="col-7 footer-list">
+                          +53 345 7953 32453
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-2">
+                      <div class="row">
+                        <div class="col-5 color-lgold text-center">E-mail</div>
+                        <div class="col-7 footer-list">
+                          huy.nguyenquang116@gmail.com
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row mt-4">
+                  <div class="visa-types d-flex flex-row justify-content-center align-items-center">
+                    <ul>
+                      <li><a href="#"><img src="./img/visa 1.webp" alt="visa1"></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><img src="./img/visa 2.webp" alt="visa2"></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><img src="./img/visa 3.webp" alt="visa3"></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><img src="./img/visa 4.webp" alt="visa4"></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><img src="./img/visa 5.webp" alt="visa5"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="social-types d-flex flex-row justify-content-center align-items-center">
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-pinterest text-white"></i></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-facebook text-white"></i></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-twitter text-white"></i></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><i class="fa-solid fa-globe text-white"></i></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-behance text-white"></i></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-linkedin text-white"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+</body>
+
+</html>

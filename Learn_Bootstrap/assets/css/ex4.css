@@ -1,0 +1,14 @@
+.bg-grey
+{
+    background-color: #f2f3f5;
+}
+.left-content-img
+{
+    padding:150px 30px;
+    background-color:#789ade ;
+}
+.red-line
+{
+padding: 15px;
+border-bottom: 2px dashed red;
+}

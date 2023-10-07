@@ -1,0 +1,24 @@
+.bg-lightblack
+{
+    background-color: #2e2e2e;
+}
+.content_image
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* .content_text
+{
+    font-size: 16px;
+} */
+.head-text::after
+{
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    background-image: linear-gradient(blue,purple);
+    height: 5px;
+    width: 50px;
+    bottom: -10px;
+    left: 0px;
+}

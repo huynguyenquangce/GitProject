@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.top-bar {
+  border-bottom: solid 1px #b334fa;
+}
+
+.bg-purple {
+  background-color: #020c22;
+}
+
+.border-radius {
+  border-radius: 22px;
+  background: linear-gradient(to right, #487fee, #b632fa);
+}
+
+.bg-header-us {
+  width: 100%;
+  background: linear-gradient(to right, #487fee, #b632fa);
+  height: 382px;
+}
+
+.headder-content > div {
+  top: 200px;
+}
+
+.logo-services {
+  top: -75px;
+  right: 80px;
+}
+
+.header-search .header-seach-bg {
+  border-radius: 35px !important;
+}
+
+.input-text {
+  margin-top: 30px !important;
+}
+
+.domain-pricing {
+  margin-top: -80px !important;
+}
+
+.domain-pricing .domain-pricing-content {
+  background: #fff;
+  height: 110px;
+  border: 1px solid #b632fa;
+}
+
+.color-dot {
+  color: #03dd03;
+}
+
+.color-domain-com {
+  color: #005cc3;
+}
+
+.color-domain-net {
+  color: #a736df;
+}
+
+.color-domain-org {
+  color: #fa9900;
+}
+
+.color-domain-io {
+  color: #df36b9;
+}
+
+.color-domain-info {
+  color: #242424;
+}
+
+.bg-footer {
+  background: #21263a;
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.need-help {
+  width: 60%;
+  background: linear-gradient(to right, #487fee, #b632fa);
+  left: 0px;
+  top: -55px;
+  height: 100px;
+  border-top-right-radius: 57px;
+  border-bottom-right-radius: 57px;
+}
+
+.need-help .container {
+  height: 100%;
+}
+
+.need-help .container .row {
+  height: 100%;
+}
+
+.row-need-help {
+  height: 100%;
+}
+
+.footer-list li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.color-lgold {
+  color: #a5a5a5;
+}
+
+.footer-list {
+  color: rgb(146, 164, 184);
+}
+
+.color-black {
+  color: black !important;
+}
+
+.margin-top-80px {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .domain-pricing-content {
+    height: 200px;
+  }
+  .domain-pricing {
+    display: none !important;
+  }
+  .logo-services {
+    display: none;
+  }
+  .need-help {
+    width: 100%;
+    top: -100px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bb-md {
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    opacity: 0.7;
+  }
+}
+.subtitle-info, .info-subtitle {
+  color: rgb(146, 164, 184);
+}
+
+.info-title {
+  color: #a5a5a5;
+}
+
+.name-input {
+  background: #e6e7fd;
+  height: 55px !important;
+  outline: none;
+  border-radius: 30px !important;
+  padding: 20px;
+}
+
+.message-input {
+  background: #e6e7fd;
+  outline: none;
+  border-radius: 30px !important;
+  padding: 20px;
+}
+
+.submit-btn {
+  background: linear-gradient(to right, #487fee, #b632fa) !important;
+  outline: none;
+  height: 55px;
+  width: 160px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.gg-maps {
+  height: 500px !important;
+}
+
+.h-90 {
+  height: 90% !important;
+}/*# sourceMappingURL=contact.css.map */

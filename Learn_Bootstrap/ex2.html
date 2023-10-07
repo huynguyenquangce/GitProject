@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/ex2.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container mt-2">
+        <h3>Get in touch with us by filling contact form below</h3>
+        <div class="row row-cols-md-1 row-col-lg-2">
+          <div class="col">
+            <div class="input-group m-3 w-100">
+              <span class="input-group-text" id="basic-addon1">Send</span>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="form-control"
+                name="fullname"
+                id="fullname"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group m-3 w-100">
+              <span class="input-group-text" id="basic-addon1">Mail</span>
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="form-control"
+                name="email"
+                id="email"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="input-group m-3 w-100">
+            <span class="input-group-text" id="basic-addon1">Subject</span>
+            <input
+              type="text"
+              placeholder="Enter your subject"
+              class="form-control"
+              name="subject"
+              id="subject"
+            />
+          </div>
+          <textarea class="message-input p-3 mt-3" name="message" form="message" placeholder="Enter message here..."></textarea>   
+      </div>
+    </main>
+  </body>
+</html>

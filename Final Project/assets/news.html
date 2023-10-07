@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.2-web/css/all.min.css" />
+</head>
+
+<body>
+
+    <head>
+        <nav class="navbar navbar-expand-md navbar-light bg-purple fixed-top top-bar">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-5 p-2 mx-1" href="#">
+                    <span class="text-primary fs-2">B</span>
+                    <span class="text-white fs-3">Host</span>
+                </a>
+                <!-- Btn Toggle -->
+                <button class="navbar-toggler bg-light shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Nav Bar  -->
+                <div class="collapse navbar-collapse nav-bar" id="navbarTogglerDemo2">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0 text-center navbar-items">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary fs-5 nav-bar-items p-2 mx-1" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="us.html">Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 nav-bar-items p-2 mx-1" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 p-2 mx-1" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 bg-primary border-radius p-2 mx-1" href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                652-245 3222 11
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="headder-content bg-header-us w-100 position-relative mb-4">
+            <div class="container-fluid position-absolute z-index-1 position-relative">
+                <div class="row position-relative d-flex flex-row w-100">
+                    <div class="col-lg-2"></div>
+                    <div class="col-sm-12 col-lg-4 text-white display-3 text-center text-md-end pe-md-5 fw-bold">
+                        News
+                    </div>
+                    <div class="col-lg-4 position-absolute position-relative logo-services ps-md-5">
+                        <img src="./img/logo-services.webp" alt="logo-services" />
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row input-text">
+                    <div class="col-12">
+                        <div class="header-search position-relative">
+                            <div class="d-inline header-seach-bg">
+                                <form class="input-group" method="get">
+                                    <input type="text" class="form-control" placeholder="Your domain name here"
+                                        name="domain-name" id="domain-name" />
+                                    <button class="btn btn-outline-secondary dropdown-toggle bg-domain fw-bold color-black"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        .com
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><a class="dropdown-item" href="#">.io</a></li>
+                                        <li><a class="dropdown-item" href="#">.net</a></li>
+                                    </ul>
+                                    <button class="btn btn-outline-secondary text-white bg-search" type="button">
+                                        Search
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </head>
+    <main>
+        <!-- Domain Pricing -->
+        <div class="domain-pricing position-relative mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="domain-pricing-content d-flex">
+                            <ul
+                                class="d-flex flex-md-row flex-column justify-content-between align-items-center list-unstyled px-5 w-100 text-center">
+                                <li class="fs-3 w-100">
+                                    <span class="color-dot"> . </span>
+                                    <span class="me-2 color-domain-com"> com </span>
+                                    <span> $3.99 </span>
+                                </li>
+                                <li class="fs-3 w-100">
+                                    <span class="color-dot"> . </span>
+                                    <span class="me-2 color-domain-net"> net </span>
+                                    <span> $1.99 </span>
+                                </li>
+                                <li class="fs-3 w-100">
+                                    <span class="color-dot"> . </span>
+                                    <span class="me-2 color-domain-org"> org </span>
+                                    <span> $2.99 </span>
+                                </li>
+                                <li class="fs-3 w-100">
+                                    <span class="color-dot"> . </span>
+                                    <span class="me-2 color-domain-io me-3"> io </span>
+                                    <span class="margin-left-fixed"> $3.99 </span>
+                                </li>
+                                <li class="fs-3 w-100">
+                                    <span class="color-dot"> . </span>
+                                    <span class="me-2 color-domain-info"> info </span>
+                                    <span> $13.99 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- New Content  -->
+        <div class="news-content margin-top-100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="content">
+                            <div class="content-img-1 w-100">
+                                <img src="./img/news-img-1.webp" alt="news1" class="w-100">
+                            </div>
+                            <div class="content-title fs-3 fw-bold mt-5">
+                                How to choose a good plan?
+                            </div>
+                            <div class="content-subtitle mt-2 d-flex justify-content-start">
+                                <ul class="d-flex flex-row align-items-center justify-content-center list-unstyled">
+                                    <li>
+                                        <a href="#">July 12, 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3 Comments</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="content-content mt-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque
+                                dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam
+                                ut interdum ultricies. In a leo vel dolor tempor feugiat. Cras accumsan faucibus magna a
+                                imperdiet.
+                            </div>
+                        </div>
+                        <div class="content margin-top-100px">
+                            <div class="content-img-1 w-100">
+                                <img src="./img/news-img-2.webp" alt="news2" class="w-100">
+                            </div>
+                            <div class="content-title fs-3 fw-bold mt-5">
+                                Next level in cloud storage
+                            </div>
+                            <div class="content-subtitle mt-2 d-flex justify-content-start">
+                                <ul class="d-flex flex-row align-items-center justify-content-center list-unstyled">
+                                    <li>
+                                        <a href="#">July 12, 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3 Comments</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="content-content mt-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque
+                                dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam
+                                ut interdum ultricies. In a leo vel dolor tempor feugiat. Cras accumsan faucibus magna a
+                                imperdiet.
+                            </div>
+                        </div>
+                        <div class="content margin-top-100px">
+                            <div class="content-img-1 w-100">
+                                <img src="./img/news-img-3.webp" alt="news3" class="w-100">
+                            </div>
+                            <div class="content-title fs-3 fw-bold mt-5">
+                                Tips to get the best storage
+                            </div>
+                            <div class="content-subtitle mt-2 d-flex justify-content-start">
+                                <ul class="d-flex flex-row align-items-center justify-content-center list-unstyled">
+                                    <li>
+                                        <a href="#">July 12, 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3 Comments</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="content-content mt-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque
+                                dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam
+                                ut interdum ultricies. In a leo vel dolor tempor feugiat. Cras accumsan faucibus magna a
+                                imperdiet.
+                            </div>
+                        </div>
+                        <div class="number-page mt-5">
+                            <ul class="list-unstyled d-flex flex-row justify-content-lg-start justify-content-center">
+                                <li class="text-primary me-3">01.</li>
+                                <li class="me-3">0.2</li>
+                                <li class="me-3">0.3</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="right-bar-content">
+                            <div class="input-form position-relative">
+                                <form action="#" method="get" id="search-input" name="search-input">
+                                    <input type="text" placeholder="Searching here" id="searching" name="searching"
+                                        class="search-input border-0 ps-3 w-100">
+                                    <button class="position-absolute border-0 top-0 btn-search">Search</button>
+                                </form>
+                            </div>
+                            <div class="mt-5 right-bar-content-1">
+                                <div class="right-bar-title-1 fs-4 fw-bold">
+                                    Categories
+                                </div>
+                                <div class="list-categori mt-4">
+                                    <ul>
+                                        <li class="row m-3">
+                                            <div class="col-6">Advertising</div>
+                                            <div class="col-6">(09)</div>
+                                        </li>
+                                        <li class="row m-3">
+                                            <div class="col-6">Reseller Hosting</div>
+                                            <div class="col-6">(12)</div>
+                                        </li>
+                                        <li class="row m-3">
+                                            <div class="col-6">VPS Hosting</div>
+                                            <div class="col-6">(16)</div>
+                                        </li>
+                                        <li class="row m-3">
+                                            <div class="col-6">Cloud Hosting</div>
+                                            <div class="col-6">(19)</div>
+                                        </li>
+                                        <li class="row m-3">
+                                            <div class="col-6">Dedicated Hosting</div>
+                                            <div class="col-6">(12)</div>
+                                        </li>
+                                        <li class="row m-3">
+                                            <div class="col-6">Linux Servers</div>
+                                            <div class="col-6">(05)</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mt-5 right-bar-content-2">
+                                <div class="right-bar-title-1 fs-4 fw-bold">
+                                    Popular Posts
+                                </div>
+                                <div class="post-list mt-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 col-lg-4">
+                                            <div class="img-post">
+                                                <img src="./img/post-1.webp" alt="post1" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-12 col-md-8 col-lg-8 mt-5 mt-md-0 d-flex justify-content-center align-items-center">
+                                            <div class="content-post">
+                                                <div
+                                                    class="time text-primary fs-12px text-md-start text-center p-1 p-md-0">
+                                                    July 12,2018</div>
+                                                <div class="content-post-tile fs-5 p-1 p-md-0">How to choose a good plan
+                                                </div>
+                                                <div
+                                                    class="content-post-writer fs-5 text-md-start text-center p-1 p-md-0">
+                                                    Maria Smith</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5 mt-md-4">
+                                        <div class="col-12 col-md-4 col-lg-4">
+                                            <div class="img-post">
+                                                <img src="./img/post-2.webp" alt="post1" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-12 col-md-8 col-lg-8 mt-5 mt-md-0 d-flex justify-content-center align-items-center">
+                                            <div class="content-post">
+                                                <div
+                                                    class="time text-primary fs-12px text-md-start text-center p-1 p-md-0">
+                                                    July 12,2018</div>
+                                                <div class="content-post-tile fs-5 p-1 p-md-0">Next level in cloud
+                                                    storage</div>
+                                                <div
+                                                    class="content-post-writer fs-5 text-md-start text-center p-1 p-md-0">
+                                                    Maria Smith</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5 mt-md-4">
+                                        <div class="col-12 col-md-4 col-lg-4">
+                                            <div class="img-post">
+                                                <img src="./img/post-3.webp" alt="post3" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-12 col-md-8 col-lg-8 mt-5 mt-md-0 d-flex justify-content-center align-items-center">
+                                            <div class="content-post">
+                                                <div
+                                                    class="time text-primary fs-12px text-md-start text-lg-start text-center p-1 p-md-0">
+                                                    July 12,2018</div>
+                                                <div class="content-post-tile fs-5 p-1 p-md-0 d-block">Next level in
+                                                    cloud storage</div>
+                                                <div
+                                                    class="content-post-writer fs-5 text-md-start text-lg-start text-center p-1 p-md-0">
+                                                    Maria Smith</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="bg-footer w-100 position-relative mt-5">
+            <div class="need-help position-absolute">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-content-center">
+                        <div class="col-6 text-white fs-4 text-center">
+                            Need help? Call us
+                        </div>
+                        <div class="col-6 text-white fs-3 text-start">
+                            <i class="fa-solid fa-phone me-2"></i>652-345 32211
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="footer-content-col text-lg-start text-md-center text-center">
+                                <div class="text-white fw-bold mb-4 fs-3">
+                                    Hosting Package
+                                </div>
+                                <div>
+                                    <ul class="list-unstyled footer-list">
+                                        <li class="p-2">Cloud Hosting</li>
+                                        <li class="p-2">Web Hosting</li>
+                                        <li class="p-2">Reseller Hosting</li>
+                                        <li class="p-2">VPS Hosting</li>
+                                        <li class="p-2">Dedicated Servers</li>
+                                        <li class="p-2">Windows Hosting</li>
+                                        <li class="p-2">Linux Servers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="footer-content-col text-lg-start text-md-center text-center">
+                                <div class="text-white fw-bold mb-4 fs-3">Our Services</div>
+                                <div>
+                                    <ul class="list-unstyled footer-list">
+                                        <li class="p-2">Web Design</li>
+                                        <li class="p-2">Logo Design</li>
+                                        <li class="p-2">Domains Register</li>
+                                        <li class="p-2">Search Advertising</li>
+                                        <li class="p-2">Email Marketing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="footer-content-col text-lg-start text-md-center text-center">
+                                <div class="text-white fw-bold mb-4 fs-3">Useful Links</div>
+                                <div>
+                                    <ul class="list-unstyled footer-list">
+                                        <li class="p-2">About us</li>
+                                        <li class="p-2">Testimonials</li>
+                                        <li class="p-2">Services</li>
+                                        <li class="p-2">News</li>
+                                        <li class="p-2">Contact</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="footer-content-col text-lg-start text-md-start text-sm-center">
+                                <div class="row text-center">
+                                    <div class="text-white fw-bold mb-4 fs-3">
+                                        <span class="text-primary">B</span>Host
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul>
+                                        <li class="p-2">
+                                            <div class="row">
+                                                <div class="col-5 color-lgold text-center">
+                                                    Address
+                                                </div>
+                                                <div class="col-7 footer-list">
+                                                    1481 Creekside Lane Avila Beach, CA 931
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <div class="row">
+                                                <div class="col-5 color-lgold text-center">Phone</div>
+                                                <div class="col-7 footer-list">
+                                                    +53 345 7953 32453
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <div class="row">
+                                                <div class="col-5 color-lgold text-center">
+                                                    E-mail
+                                                </div>
+                                                <div class="col-7 footer-list">
+                                                    huy.nguyenquang116@gmail.com
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="visa-types d-flex flex-row justify-content-center align-items-center">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="./img/visa 1.webp" alt="visa1" /></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="./img/visa 2.webp" alt="visa2" /></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="./img/visa 3.webp" alt="visa3" /></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="./img/visa 4.webp" alt="visa4" /></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="./img/visa 5.webp" alt="visa5" /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="social-types d-flex flex-row justify-content-center align-items-center">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-pinterest text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-facebook text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-twitter text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-solid fa-globe text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-behance text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-linkedin text-white"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
