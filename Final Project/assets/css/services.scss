@@ -112,6 +112,10 @@
 // Footer CSS Ends
   @media screen and (max-width: 768px) 
   {
+    .good-plan-content
+    {
+      padding: 50px 30px!important;
+    }
     .domain-pricing-content {
         height: 200px;
       }
@@ -173,4 +177,9 @@
 .text-galaxy
 {
     color: rgb(223, 138, 223)
+}
+.our-best-services-btn:hover
+{
+  background:#ffa07f!important;
+  color: #ffffff!important;
 }

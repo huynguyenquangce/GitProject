@@ -191,4 +191,8 @@
 
 .fs-12px {
   font-size: 14px;
+}
+
+.hover-black:hover {
+  color: black !important;
 }/*# sourceMappingURL=news.css.map */

@@ -192,4 +192,9 @@
 
 .h-90 {
   height: 90% !important;
+}
+
+.summit-form input:hover {
+  background: #ffa07f !important;
+  color: #ffffff !important;
 }/*# sourceMappingURL=contact.css.map */
